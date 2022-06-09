@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for letters in range(97, 123):
-    if (letters != 113 and letters != 101):
-        print("{}".format(chr(letters)), end="")
+for i in range(ord('a'), ord('z') + 1):
+    if i != ord('q') and i != ord('e'):
+        print('{:c}'.format(i), end='')
 	
